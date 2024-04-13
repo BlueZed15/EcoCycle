@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background-color: #E6F5F8;
+}
+.sidebar {
+    width: 250px; 
+    padding: 0px 20px;
+}
+
+.sidebar .img {
+    text-align: center;
+}
+
+.sidebar .img img {
+    max-width: 46%; 
+    height: auto;
+}
+
+.topic {
+    margin-bottom: 20px; 
+}
+
+.topic h3 {
+    font-size: 18px;
+    color: black; 
+    margin-bottom: 10px; 
+}
+
+.topic button {
+    display: block; 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    border: none; 
+    background-color: white;
+    color: #317fba;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+
+.topic button:hover {
+    background-color: #317fba;
+    color: white;
+}
+
+.content{
+    width: 83%;
+    height: 97%;
+    background-color: rgba(250, 235, 215, 0.893);
+    border-radius: 50px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-right: 14px;
+}
+
+.content h1{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;   
+}
+
+.grid div{
+    height: 275px;
+    width: 575px;
+    border: 1px solid rgba(0, 0, 0, 0.347);
+    margin: 10px 0px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15),
+        -2px -2px 5px rgba(255, 255, 255, 0.2),
+        inset 1px 1px 3px rgba(0, 0, 0, 0.1),
+        inset -1px -1px 3px rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
