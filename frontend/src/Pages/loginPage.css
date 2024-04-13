@@ -33,15 +33,7 @@
     height: 100%;
 }
 
-.header img{
-    height: 120px;
-    width: 120px;
-    margin: auto;
-}
 
-.header h1{
-    font-weight: normal;
-}
 
 .right{
     width: 40%;
@@ -49,6 +41,18 @@
     justify-content: center;
     background-color: white;
     font-family: 'Poppins', sans-serif;
+}
+
+
+.header img{
+    height: 120px;
+    width: 120px;
+    margin: auto;
+
+}
+
+.header h1{
+    font-weight: normal;
 }
 
 .container{
@@ -74,11 +78,7 @@
 .header{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
 }
-
 
 .form_grp label{
     margin-bottom: 7px;
