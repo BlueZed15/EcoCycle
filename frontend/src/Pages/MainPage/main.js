@@ -1,4 +1,4 @@
-import logo from './logo.jpg'
+
 import './mainpage.css'
 import Navbar from './navbar'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
