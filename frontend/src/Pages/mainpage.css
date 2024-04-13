@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bar{
+    background-color: #FEEEBD;
+    height: 100%;
+    width: 6%;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bar div{
+    height: 1px;
+    width: 60%;
+    background-color: rgba(128, 128, 128, 0.553);
+    margin: 50px 0px;
+}
+
+.bar ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+.bar ul li a{
+    color: grey;
+}
+
+.bar ul li a:hover{
+    color: black;
+}
+
+
+.main{
+    background-color: rgba(160, 158, 158, 0.162);
+}
